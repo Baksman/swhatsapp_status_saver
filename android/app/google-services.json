@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450170268463",
+    "project_id": "whatsapp-3998c",
+    "storage_bucket": "whatsapp-3998c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450170268463:android:15a1219f39d2c63b268fda",
+        "android_client_info": {
+          "package_name": "com.baksman.saver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450170268463-l8t186ebe6dmds0dptahh8f4sait30oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtLlik0D4MrI1emi-QbgCtGnNMSCeR40o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450170268463-l8t186ebe6dmds0dptahh8f4sait30oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,7 +2,7 @@
 
 A whatsApp status saver/downloader with flutter.
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e0f76d23c4b570de57adbfa/5e0f76d23c4b570de57adbf9/status_badge.svg)](https://codemagic.io/apps/5e0f76d23c4b570de57adbfa/5e0f76d23c4b570de57adbf9/latest_build)
+
 
 # ✨ Requirements
 - Any Operating System (ie. MacOS X, Linux, Windows)

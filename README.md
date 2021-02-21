@@ -2,7 +2,7 @@
 
 A whatsApp status saver/downloader with flutter.
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e0f76d23c4b570de57adbfa/5e0f76d23c4b570de57adbf9/status_badge.svg)](https://codemagic.io/apps/5e0f76d23c4b570de57adbfa/5e0f76d23c4b570de57adbf9/latest_build)
+
 
 # ✨ Requirements
 - Any Operating System (ie. MacOS X, Linux, Windows)
@@ -10,10 +10,7 @@ A whatsApp status saver/downloader with flutter.
 - A little knowledge of Dart and Flutter
 - Some fingers to code 😂
 
-Download the `apk-debug.apk` to try out wa_status_saver
-<br>
-<a href="https://static.codemagic.io/files/4de795ac-786a-4b80-ba61-7a3700725cad/672da37b-e5ec-48f3-b04f-d5660f6c576f/app-debug.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
-<br>
+
 Don't forget to star⭐ the repo if you like what you see😉.
 
 ## 🔌 Plugins
@@ -23,7 +20,14 @@ Don't forget to star⭐ the repo if you like what you see😉.
 |[**Staggered Grid View**](https://pub.dev/packages/flutter_staggered_grid_view)| Display status in grid|
 |[**Path Provider**](https://pub.dev/packages/path_provider)| Locations on file system/file manager|
 |[**Image Gallery Saver**](https://pub.dev/packages/image_gallery_saver)| Save images to gallery|
-|[**Chewie**](https://pub.dev/packages/http)| Plays video statuses|
+|[**Chewie**](https://pub.dev/packages/Chewie)| Plays video statuses|
+|[**wallpaper_manager**](https://pub.dev/packages/wallpaper_manager)| To set wallpaper|
+|[**flutter_open_whatsapp**](https://pub.dev/packages/flutter_open_whatsapp)| open whatsapp|
+|[**store_redirect**](https://pub.dev/packages/store_redirect)|redirects to playstore|
+|[**gallery_saver**](https://pub.dev/packages/gallery_saver)|Save images or video to gallery|
+|[**photo_view**](https://pub.dev/packages/photo_view)| View and zoom photos|
+|[**flutter_open_whatsapp**](https://pub.dev/packages/flutter_open_whatsapp)| Open whatsapp from app|
+
 
 
 ## Getting Started

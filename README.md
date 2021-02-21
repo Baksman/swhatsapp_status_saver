@@ -20,7 +20,14 @@ Don't forget to star⭐ the repo if you like what you see😉.
 |[**Staggered Grid View**](https://pub.dev/packages/flutter_staggered_grid_view)| Display status in grid|
 |[**Path Provider**](https://pub.dev/packages/path_provider)| Locations on file system/file manager|
 |[**Image Gallery Saver**](https://pub.dev/packages/image_gallery_saver)| Save images to gallery|
-|[**Chewie**](https://pub.dev/packages/http)| Plays video statuses|
+|[**Chewie**](https://pub.dev/packages/Chewie)| Plays video statuses|
+|[**wallpaper_manager**](https://pub.dev/packages/wallpaper_manager)| To set wallpaper|
+|[**flutter_open_whatsapp**](https://pub.dev/packages/flutter_open_whatsapp)| open whatsapp|
+|[**store_redirect**](https://pub.dev/packages/store_redirect)|redirects to playstore|
+|[**gallery_saver**](https://pub.dev/packages/gallery_saver)|Save images or video to gallery|
+|[**photo_view**](https://pub.dev/packages/photo_view)| View and zoom photos|
+|[**flutter_open_whatsapp**](https://pub.dev/packages/flutter_open_whatsapp)| Open whatsapp from app|
+
 
 
 ## Getting Started

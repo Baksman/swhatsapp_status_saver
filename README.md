@@ -32,8 +32,7 @@ Don't forget to star⭐ the repo if you like what you see😉.
   <img src="https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-35.png" width="350" title="hover text">
   <img src="https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-54.png" width="350" alt="accessibility text">
 </p>
-![home screen](https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-35.png)
-![send message screen](https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-54.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

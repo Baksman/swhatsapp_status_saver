@@ -28,7 +28,10 @@ Don't forget to star⭐ the repo if you like what you see😉.
 |[**photo_view**](https://pub.dev/packages/photo_view)| View and zoom photos|
 |[**flutter_open_whatsapp**](https://pub.dev/packages/flutter_open_whatsapp)| Open whatsapp from app|
 
-
+<p align="center">
+  <img src="https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-35.png" width="350" title="hover text">
+  <img src="https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-54.png" width="350" alt="accessibility text">
+</p>
 ![home screen](https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-35.png)
 ![send message screen](https://github.com/Baksman/swhatsapp_status_saver/blob/master/assets/images/Screenshot_2021-02-18-15-47-54.png)
 ## Getting Started

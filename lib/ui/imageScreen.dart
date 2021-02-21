@@ -16,16 +16,24 @@ class ImageScreen extends StatefulWidget {
 }
 
 class ImageScreenState extends State<ImageScreen> {
- 
+  List<String> imageList;
+  @override
+  void initState() {
+    try {
+      imageList = _photoDir
+          .listSync()
+          .map((item) => item.path)
+          .where((item) =>
+              item.endsWith(".jpg") ||
+              item.endsWith(".png") ||
+              item.endsWith(".gif"))
+          .toList();
+    } on FileSystemException catch (_) {
+      imageList = [];
+    }
 
-  var imageList = _photoDir
-      .listSync()
-      .map((item) => item.path)
-      .where((item) =>
-          item.endsWith(".jpg") ||
-          item.endsWith(".png") ||
-          item.endsWith(".gif"))
-      .toList();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {

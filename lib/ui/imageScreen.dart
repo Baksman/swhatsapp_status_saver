@@ -6,6 +6,7 @@ import 'package:wa_status_saver/ui/not_intsalled_screen.dart';
 import 'package:wa_status_saver/ui/viewphotos.dart';
 import 'package:wa_status_saver/utils/save_image.dart';
 import 'package:wa_status_saver/utils/delete_file.dart';
+
 final Directory _photoDir =
     new Directory('/storage/emulated/0/WhatsApp/Media/.Statuses');
 
@@ -15,10 +16,7 @@ class ImageScreen extends StatefulWidget {
 }
 
 class ImageScreenState extends State<ImageScreen> {
-  @override
-  void initState() {
-    super.initState();
-  }
+ 
 
   var imageList = _photoDir
       .listSync()
@@ -27,8 +25,6 @@ class ImageScreenState extends State<ImageScreen> {
           item.endsWith(".jpg") ||
           item.endsWith(".png") ||
           item.endsWith(".gif"))
-      // .toList()
-      // .reversed
       .toList();
 
   @override
@@ -145,6 +141,4 @@ class ImageScreenState extends State<ImageScreen> {
       }
     }
   }
-
- 
 }

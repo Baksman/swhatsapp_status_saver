@@ -49,14 +49,11 @@ class MyAppState extends State<MyApp> {
   //   }
 
   Future<int> checkStoragePermission() async {
-    // bool result = await SimplePermissions.checkPermission(Permission.ReadExternalStorage);
     PermissionStatus permissionStatus = await Permission.storage.status;
-    // print("Checking Storage Permission " + result.toString());
-    // setState(() {
-    //   _storagePermissionCheck = 1;
-    // });
     if (permissionStatus.isGranted) {
       return 1;
+    } else if (permissionStatus.isPermanentlyDenied) {
+      return 2;
     }
     return 0;
   }
@@ -97,7 +94,6 @@ class MyAppState extends State<MyApp> {
       theme: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.teal,
-        // accentColor: Colors.amber,
       ),
       // darkTheme: darkTheme,
       home: DefaultTabController(

@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:firebase_admob/firebase_admob.dart';
-
 class AdManager {
   static String get appId {
     if (Platform.isAndroid) {

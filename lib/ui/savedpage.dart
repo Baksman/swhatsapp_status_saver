@@ -13,16 +13,26 @@ class SavedStatusPage extends StatefulWidget {
 }
 
 class _SavedStatusPageState extends State<SavedStatusPage> {
-  var savedImage = _savedStatusDir
-      .listSync()
-      .map((item) => item.path)
-      .where((item) =>
-          item.endsWith(".jpg") ||
-          item.endsWith(".png") ||
-          item.endsWith(".gif"))
-      .toList()
-      .reversed
-      .toList();
+  List<String> savedImage;
+  @override
+  void initState() {
+    try {
+      savedImage = _savedStatusDir
+          .listSync()
+          .map((item) => item.path)
+          .where((item) =>
+              item.endsWith(".jpg") ||
+              item.endsWith(".png") ||
+              item.endsWith(".gif"))
+          .toList()
+          .reversed
+          .toList();
+    } on FileSystemException catch (_) {
+      savedImage = [];
+    }
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     if (!Directory("${_savedStatusDir.path}").existsSync()) {
